@@ -1,0 +1,58 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+canvas {
+  cursor: url('../images/edit_black_24dp.svg'), auto;
+}
+
+input[type="color"] {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.avatar {
+  height: 32px;
+  margin: 5px;
+  float: left;
+  clip-path: circle(50%);
+  vertical-align: middle;
+}
+
+.guesses {
+  height: 370px;
+}
+
+.mdl-card {
+  width: 100%;
+}
+
+.mdl-layout__header-row {
+  padding-left: 20px;
+}
+
+.player {
+  margin-bottom: 10px;
+}
+
+.points {
+  font-size: small;
+  color: #555;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.rounds {
+  font-size: large;
+  padding-left: 10px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+}
